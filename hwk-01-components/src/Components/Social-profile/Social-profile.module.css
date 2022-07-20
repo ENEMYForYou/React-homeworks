@@ -1,0 +1,78 @@
+.container {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.description {
+  width: 250px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.name {
+  margin: 0;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.tag {
+  color: darkgray;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.location {
+  color: darkgray;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.stats {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  display: -webkit-box;
+  display: flex;
+  background-color: grey;
+}
+
+.stats_item {
+  padding: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.label {
+  color: darkgray;
+}
+
+.quantity {
+  color: black;
+}

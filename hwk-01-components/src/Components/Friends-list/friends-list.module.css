@@ -1,0 +1,11 @@
+.container {
+  padding: 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  list-style: none;
+  -webkit-box-align: center;
+  align-items: center;
+}
