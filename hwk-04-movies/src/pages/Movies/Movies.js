@@ -82,9 +82,6 @@ export default class Movies extends Component {
             ))}
           </ul>
         )}
-        {movies.length === 0 && (
-          <p>Sorry, movies with your keywords not found</p>
-        )}
       </div>
     );
   }
