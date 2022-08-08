@@ -1,0 +1,15 @@
+.author {
+  font-weight: 600;
+  color: #212121;
+  padding: 10px;
+}
+.reviewItem {
+  background-color: rgb(210, 203, 203);
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.reviewContent {
+  padding-left: 5px;
+}

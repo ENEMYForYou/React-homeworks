@@ -1,0 +1,146 @@
+ul,
+li,
+p {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+li .container {
+  padding: 10px;
+  height: 100%;
+}
+.backBtn {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(154, 135, 135);
+  border-radius: 5px;
+  color: #f0ede7;
+}
+.arrowLeft {
+  border: solid #f0ede7;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+  color: #f0ede7;
+  margin-right: 2px;
+}
+
+.backBtn:hover {
+  color: #212121;
+  background-color: rgb(155, 126, 126);
+}
+.movieContainer {
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+
+  gap: 25px;
+}
+.baseInfo {
+  padding-top: 10px;
+  /* width: 300px; */
+  max-width: 320px;
+}
+.secondaryInfo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.movieTitle {
+  font-weight: 700;
+  font-size: 28px;
+  margin: 0;
+  padding: 5px 10px;
+}
+.tagline {
+  font-weight: 400;
+  margin: 0;
+  padding: 5px 10px;
+}
+.originalLink {
+  white-space: normal;
+  overflow-wrap: break-word;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(93, 79, 79);
+}
+.originalLink:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #000;
+}
+.linkTitle {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.releaseDate {
+  font-size: 24px;
+  font-weight: 500;
+  color: #835050;
+}
+.stats {
+  font-size: 24px;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+.subtitle {
+  font-size: 24px;
+  margin: 0;
+  padding: 10px 0;
+  color: rgb(93, 79, 79);
+}
+.overview {
+  font-weight: 400;
+  padding: 5px 0;
+}
+
+.genresList {
+  display: flex;
+}
+.genreItem {
+  margin-right: 5px;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+.countryItem {
+  padding: 5px 0;
+}
+
+.attention {
+  font-weight: 700;
+  font-size: 28px;
+  background-color: red;
+}
+/* //======================================================================================================================================================== */
+.optionsList {
+  display: flex;
+  justify-content: flex-start;
+}
+.optionsItem {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(154, 135, 135);
+  border-radius: 5px;
+  color: #f0ede7;
+  margin-left: 10px;
+}
+.optionsItem:hover {
+  background-color: rgb(173, 159, 159);
+}
+.optionLink {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.activeOptionLink {
+  color: #212121;
+  font-size: 18px;
+}

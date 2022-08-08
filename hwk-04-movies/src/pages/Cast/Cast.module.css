@@ -1,0 +1,14 @@
+.subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  color: #212121;
+  text-decoration: underline;
+}
+.actorImage {
+  width: 100px;
+  padding: 10px;
+}
+.authorItem {
+  display: flex;
+  align-items: center;
+}
