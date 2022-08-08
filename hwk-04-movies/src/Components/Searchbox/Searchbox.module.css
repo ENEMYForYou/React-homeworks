@@ -34,6 +34,12 @@
   overflow: hidden;
 }
 
+@media (max-width: 840px) {
+  .Searchform {
+    margin-bottom: 10px;
+  }
+}
+
 .Searchform__button {
   display: inline-block;
   width: 48px;

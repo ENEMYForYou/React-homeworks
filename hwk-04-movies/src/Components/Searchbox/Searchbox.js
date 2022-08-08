@@ -27,7 +27,7 @@ export default class Searchbox extends Component {
 
           <input
             type="text"
-            placeholder="Enter the keywords to search"
+            placeholder="Enter keywords to search"
             className={styles.Searchform__input}
             onChange={this.handleChange}
             value={this.state.inputValue}
