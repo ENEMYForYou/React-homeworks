@@ -1,0 +1,21 @@
+import React from "react";
+import styles from "./ThemeSelector.module.css";
+import withTheme from "../../hoc/withTheme";
+
+const ThemeSelector = ({ theme }) => {
+  return (
+    <div className={styles.center}>
+      <span className="label">{theme.type}</span>
+      <input
+        type="checkbox"
+        className={styles.checkbox}
+        checked={theme.type === "dark"}
+        onChange={() => theme.toggleTheme()}
+      />
+    </div>
+  );
+};
+
+// export default ThemeSelector;
+
+export default withTheme(ThemeSelector);
